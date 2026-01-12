@@ -1,0 +1,17 @@
+# Requirements tested with Python 3.11
+
+# General dependencies
+ipykernel>=7.1.0  # Jupyter kernel for Python
+numpy>=2.4.1
+matplotlib>=3.10.8
+scipy>=1.17.0
+pandas>=2.3.3
+
+# Notebook 1
+mido>=1.3.3
+pretty_midi>=0.2.11
+pypianoroll>=1.0.4
+music21>=9.9.1
+
+# Optional (data preparation)
+kagglehub>=0.4.0
