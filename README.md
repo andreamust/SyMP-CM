@@ -16,6 +16,7 @@ The main objective of the course is to learn to work with various music encoding
 - [Sessions](#sessions)
 	- [Session 1: MIDI Processing](#session-1-midi-processing)
 - [Usage Instructions](#usage-instructions)
+- [Dataset](#dataset)
 - [License](#license)
 
 ## Sessions
@@ -67,7 +68,24 @@ Main objective of this session is to learn to parse, analyze, and visualize MIDI
 	- Open the relevant session notebook in your editor of choice.
 	- Follow the instructions in each notebook for setup and execution.
 
----
+
+## Dataset
+
+All datasets used in this course are located in the [2026/data](2026/data) folder. Each dataset is a small, copyright-free subset sampled from a larger public collection:
+
+- **MIDI Dataset** ([2026/data/midi](2026/data/midi)):
+	- Source: [Lakh MIDI Dataset (LMD)](https://colinraffel.com/projects/lmd/) ([Kaggle link](https://www.kaggle.com/datasets/imsparsh/lakh-midi-clean))
+	- Description: A subset of 100 MIDI files sampled from the Lakh MIDI Dataset, a large collection of unique MIDI files for music information retrieval research.
+
+- **MusicXML Dataset** ([2026/data/musicxml](2026/data/musicxml)):
+	- Source: [PDMX: Public Domain MusicXML](https://zenodo.org/records/13763756) ([Zenodo link](https://zenodo.org/record/13763756))
+	- Description: A subset of 100 MusicXML files sampled from PDMX, a large collection of public domain MusicXML files from musescore.com.
+
+- **ABC Dataset** ([2026/data/abc](2026/data/abc)):
+	- Source: [Nottingham Dataset](http://abc.sourceforge.net/NMD/) ([Kaggle link](https://www.kaggle.com/datasets/tishyatripathi/nottingham-music-dataset))
+	- Description: A subset of 100 folk tunes in ABC notation, sampled from the Nottingham dataset of traditional music.
+
+
 
 ## License
 
