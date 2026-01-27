@@ -25,11 +25,30 @@ The main objective of the course is to learn to work with various music encoding
 
 Explore three different Python libraries for working with MIDI files:
 
-- **pretty_midi**: High-level interface focused on musical content
-- **mido**: Low-level interface for MIDI messages
-- **pypianoroll**: Piano roll representation for multi-track music
+- [**pretty_midi**](https://craffel.github.io/pretty-midi/): High-level interface focused on musical content
+- [**mido**](https://mido.readthedocs.io/en/latest/): Low-level interface for MIDI messages
+- [**pypianoroll**](https://pypianoroll.readthedocs.io/en/latest/): Piano roll representation for multi-track music
 
 Main objective of this session is to learn to parse, analyze, and visualize MIDI files using these libraries, gaining hands-on experience with MIDI representation.
+
+### Session 2: Introduction to Music21
+
+Introduction to [**music21**](https://www.music21.org/music21docs/moduleReference/), a Python toolkit for symbolic music analysis and manipulation.
+
+#### Key Topics
+- Basic objects (notes, rests, chords, pitches)
+- Musical structures (streams, parts, scores)
+- Musical attributes (keys, time signatures, tempo)
+- Analysis functions (key detection, intervals)
+
+### Session 3: Processing Symbolic data with Music21
+Hands-on activity on the usage of the [**music21**](https://www.music21.org/music21docs/moduleReference/) library to parse and analyse diverse types of symbolic music data (MIDI, MusicXML, ABC).
+
+#### Key Topics
+- Multi-format support (MIDI, MusicXML, ABC)
+- Batch processing and statistical analysis
+- Format conversion 
+
 
 ## Usage Instructions
 
