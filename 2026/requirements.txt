@@ -14,5 +14,5 @@ pretty_midi>=0.2.11
 pypianoroll>=1.0.4
 music21>=9.9.1
 
-# Optional (data preparation)
-kagglehub>=0.4.0
+# # Optional (data preparation)
+# kagglehub>=0.4.0
