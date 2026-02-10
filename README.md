@@ -15,6 +15,9 @@ The main objective of the course is to learn to work with various music encoding
 - [Table of Contents](#table-of-contents)
 - [Sessions](#sessions)
 	- [Session 1: MIDI Processing](#session-1-midi-processing)
+	- [Session 2: Introduction to Music21](#session-2-introduction-to-music21)
+	- [Session 3: Processing Symbolic data with Music21](#session-3-processing-symbolic-data-with-music21)
+	- [Session 4: Tokenization of Symbolic Music Data](#session-4-tokenization-of-symbolic-music-data)
 - [Usage Instructions](#usage-instructions)
 - [Dataset](#dataset)
 - [License](#license)
@@ -35,19 +38,24 @@ Main objective of this session is to learn to parse, analyze, and visualize MIDI
 
 Introduction to [**music21**](https://www.music21.org/music21docs/moduleReference/), a Python toolkit for symbolic music analysis and manipulation.
 
-#### Key Topics
+#### Key Topics (notebook 2)
 - Basic objects (notes, rests, chords, pitches)
 - Musical structures (streams, parts, scores)
 - Musical attributes (keys, time signatures, tempo)
 - Analysis functions (key detection, intervals)
 
-### Session 3: Processing Symbolic data with Music21
-Hands-on activity on the usage of the [**music21**](https://www.music21.org/music21docs/moduleReference/) library to parse and analyse diverse types of symbolic music data (MIDI, MusicXML, ABC).
-
-#### Key Topics
+#### Key Topics (notebook 3)
 - Multi-format support (MIDI, MusicXML, ABC)
 - Batch processing and statistical analysis
 - Format conversion 
+
+### Session 3: Tokenization of Symbolic Music Data
+Hands-on activity on the usage of the [**Miditok**](https://miditok.readthedocs.io/en/latest/index.html) library for tokenizing symbolic music data and [**linearized-musicxml**](https://pypi.org/project/linearized-musicxml/) for MusicXML data.
+
+#### Key Topics
+- Tokenization concepts and techniques
+- MIDITok library usage (REMI, CPWord, MIDILike, Structured tokenizers)
+- MusicXML linearization and tokenization
 
 
 ## Usage Instructions
