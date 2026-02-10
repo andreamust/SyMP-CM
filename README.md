@@ -57,6 +57,18 @@ Hands-on activity on the usage of the [**Miditok**](https://miditok.readthedocs.
 - MIDITok library usage (REMI, CPWord, MIDILike, Structured tokenizers)
 - MusicXML linearization and tokenization
 
+### Session 4: Parsing non-Western and Chord corpora with music21
+Hands-on activity on parsing non-Western and chord corpora with music21. For the non-Western corpus, we will explore how to parse and process the Dunya corpora.
+
+For the chord corpus, we will explore how to parse and process chords in the Harte format using the [harte-library](https://pypi.org/project/harte-library/), an extension of music21.
+
+#### Key Topics
+- Parsing non-Western music corpora with music21
+- Parsing microtonal music with music21
+- Parsing chords with music21
+- Parsing chord corpora with the harte library
+
+
 
 ## Usage Instructions
 
